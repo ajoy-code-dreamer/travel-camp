@@ -1,0 +1,544 @@
+/* ======== responsive css ======== */
+/* ========================= device (xs 0 > 576) ========================= */
+@media (max-width: 575.98px) {
+	/* === navbar === */
+	.navbar-brand {
+		width: 50px;
+		height: 50px;
+	}
+	.navbar-nav {
+		text-align: center;
+	}
+	.nav-link {
+		padding: 3px !important;
+		font-size: 16px;
+		display: inline-block;
+	}
+	.social_icon_wrapper {
+		justify-content: center;
+		margin: 10px 0;
+	}
+	/* === navbar === */
+	/* === banner === */
+	#banner {
+		padding: 100px 0 150px 0;
+	}
+	.banner_wrapper h1 {
+		font-size: 38px;
+	}
+	.banner_wrapper p {
+		width: auto;
+		line-height: 1.5;
+	}
+	.banner_btn {
+		flex-direction: column;
+		row-gap: 20px;
+		width: 70%;
+		margin: 0 auto;
+	}
+	/* === banner === */
+	/* === feature === */
+	.feature_item_wrapper {
+		top: -160px;
+		row-gap: 30px;
+		justify-content: center;
+	}
+	.feature_item_main {
+		width: 150px;
+		height: 130px;
+		margin: 0 auto;
+	}
+	.feature_img {
+		width: 30px;
+		height: 30px;
+	}
+	.feature_item h5 {
+		font-size: 16px;
+	}
+	.feature_item_main:hover .feature_item {
+		position: absolute;
+		top: -20px;
+		left: 0;
+	}
+	/* === feature === */
+	/* === portfolio === */
+	#portfolio {
+		padding: 150px 10px 50px 10px;
+	}
+	.section_heading h2 {
+		font-size: 38px;
+		line-height: 1.2;
+	}
+	.portfolio_wrapper_main {
+		row-gap: 30px;
+	}
+	.portfolio_item_wrapper {
+		width: 240px;
+		height: 180px;
+		margin: 0 auto;
+	}
+	.portfolio_item .overlay h3 {
+		font-size: 30px;
+		font-family: var(--heading-font);
+		margin-bottom: 20px;
+	}
+	.portfolio_item .overlay p {
+		line-height: 1.2;
+	}
+	.portfolio_btn .common_btn {
+		font-size: 16px;
+		padding: 10px 20px;
+	}
+	/* === portfolio === */
+	/* === service === */
+	#service {
+		padding: 50px 0;
+	}
+	#service .section_heading p {
+		line-height: 1.2;
+		width: auto;
+	}
+	.service_item_wrapper {
+		width: 288px;
+		height: 360px;
+		margin: 0 auto;
+	}
+	.service_item_wrapper::before {
+		bottom: 96px;
+		right: -15px;
+	}
+	.service_item_wrapper::after {
+		height: 180px;
+		right: -15px;
+	}
+	.service_item .overlay h3 {
+		font-size: 25px;
+	}
+	.service_item .overlay p {
+		font-size: 15px;
+	}
+	.service_item_wrapper::before {
+		bottom: 108px;
+	}
+	/* === service === */
+	/* === about ==== */
+	#about {
+		padding: 50px 0;
+	}
+	.about_item {
+		width: 220px;
+		margin: 0 auto;
+	}
+	.about_img {
+		height: 180px;
+		margin-bottom: 50px;
+	}
+	.about_heading {
+		width: 180px;
+		height: 75px;
+		padding: 10px;
+		left: 50%;
+		top: 150px;
+	}
+	.about_heading h4 {
+		font-size: 19px;
+		letter-spacing: 1px;
+		margin-bottom: 10px;
+	}
+	.about_heading h6 {
+		font-size: 14px;
+	}
+	.about_item p {
+		line-height: 1.2;
+	}
+	/* === about ==== */
+	/* === contact === */
+	#contact {
+		padding: 50px 0;
+		text-align: center;
+	}
+	.contact_details h2 {
+		font-size: 40px;
+	}
+	.contact_details p {
+		line-height: 1.3;
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+	.contact_details .contact_us_btn {
+		font-size: 16px;
+		padding: 10px 20px;
+	}
+	.contact_form label {
+		font-size: 16px;
+	}
+	/* === contact === */
+	/* === copyright === */
+	footer {
+		text-align: center !important;
+	}
+	.quick_link_wrapper {
+		padding: 0 !important;
+		justify-content: center !important;
+	}
+	/* === copyright === */
+}
+/* ========================= device (xs 0 > 576) ========================= */
+
+/* ========================= device (sm 576 > 768) ========================= */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* === navbar === */
+	.navbar-brand {
+		width: 60px;
+		height: 60px;
+	}
+	.navbar-nav {
+		text-align: center;
+	}
+	.nav-link {
+		padding: 3px !important;
+		font-size: 16px;
+		display: inline-block;
+	}
+	.social_icon_wrapper {
+		justify-content: center;
+		margin: 10px 0;
+	}
+	/* === navbar === */
+	/* === banner === */
+	#banner {
+		padding: 150px 0 200px 0;
+	}
+	.banner_wrapper h1 {
+		font-size: 42px;
+	}
+	.banner_wrapper p {
+		width: auto;
+		line-height: 1.5;
+	}
+	.banner_btn .common_btn {
+		font-size: 16px;
+		padding: 8px 20px;
+	}
+	/* === banner === */
+	/* === feature === */
+	.feature_item_wrapper {
+		row-gap: 60px;
+	}
+	.feature_item_main {
+		width: 200px;
+		height: 180px;
+		margin: 0 auto;
+	}
+	.feature_img {
+		width: 50px;
+		height: 50px;
+	}
+	.feature_item h5 {
+		font-size: 18px;
+	}
+	/* === feature === */
+	/* === portfolio === */
+	#portfolio {
+		padding: 250px 10px 50px 10px;
+	}
+	.section_heading h2 {
+		font-size: 42px;
+		line-height: 1.2;
+	}
+	.portfolio_wrapper_main {
+		row-gap: 30px;
+	}
+	.portfolio_item_wrapper {
+		width: 240px;
+		height: 180px;
+		margin: 0 auto;
+	}
+	.portfolio_item .overlay h3 {
+		font-size: 30px;
+		font-family: var(--heading-font);
+		margin-bottom: 20px;
+	}
+	.portfolio_item .overlay p {
+		line-height: 1.2;
+	}
+	.portfolio_btn .common_btn {
+		font-size: 16px;
+		padding: 10px 20px;
+	}
+	/* === portfolio === */
+	/* === service === */
+	#service {
+		padding: 50px 0;
+	}
+	#service .section_heading p {
+		line-height: 1.4;
+		width: auto;
+	}
+	.service_item_wrapper {
+		margin: 0 auto;
+	}
+	/* === service === */
+	/* === about ==== */
+	#about {
+		padding: 50px 0;
+	}
+	.about_item {
+		margin: 0 auto;
+	}
+	.about_heading {
+		top: 230px;
+	}
+	.about_item p {
+		line-height: 1.4;
+	}
+	/* === about ==== */
+	/* === contact === */
+	#contact {
+		padding: 50px 0;
+		text-align: center;
+	}
+	.contact_details h2 {
+		font-size: 45px;
+	}
+	.contact_details p {
+		line-height: 1.5;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.contact_details .contact_us_btn {
+		font-size: 16px;
+		padding: 10px 20px;
+	}
+	/* === contact === */
+	/* === copyright === */
+	footer {
+		text-align: center !important;
+	}
+	.quick_link_wrapper {
+		padding: 0 !important;
+		justify-content: center !important;
+	}
+	/* === copyright === */
+}
+/* ========================= device (sm 576 > 768) ========================= */
+
+/* ========================= device (md 768 > 992) ========================= */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* === navbar === */
+	.navbar-brand {
+		width: 60px;
+		height: 60px;
+	}
+	.navbar-nav {
+		text-align: center;
+	}
+	.nav-link {
+		padding: 5px !important;
+		display: inline-block;
+	}
+	.social_icon_wrapper {
+		justify-content: center;
+		margin: 10px 0;
+	}
+	/* === navbar === */
+	/* === banner === */
+	.banner_wrapper p {
+		width: auto;
+		line-height: 1.5;
+	}
+	.banner_btn .common_btn {
+		font-size: 16px;
+		padding: 8px 20px;
+	}
+	/* === banner === */
+	/* === feature === */
+	#feature {
+		padding: 100px 80px;
+	}
+	.feature_item_wrapper {
+		row-gap: 60px;
+	}
+	.feature_item_main {
+		margin: 0 auto;
+	}
+	/* === feature === */
+	/* === portfolio === */
+	#portfolio {
+		padding: 250px 10px 50px 10px;
+	}
+	.section_heading h2 {
+		font-size: 45px;
+	}
+	.portfolio_wrapper_main {
+		row-gap: 30px;
+	}
+	.portfolio_item_wrapper {
+		width: 320px;
+		height: 220px;
+		margin: 0 auto;
+	}
+	.portfolio_item .overlay h3 {
+		margin-bottom: 40px;
+	}
+	.portfolio_item .overlay p {
+		line-height: 1.2;
+	}
+	/* === portfolio === */
+	/* === service === */
+	#service {
+		padding: 50px 0;
+	}
+	#service .section_heading p {
+		line-height: 1.4;
+		width: auto;
+	}
+	.service_item_wrapper {
+		margin: 0 auto;
+	}
+	/* === service === */
+	/* === about ==== */
+	#about {
+		padding: 50px 0;
+	}
+	#about .about_section_wrapper h2 {
+		margin-bottom: 20px;
+	}
+	.about_item_wrapper {
+		justify-content: center;
+	}
+	.about_item {
+		width: 270px;
+		margin: 0 auto;
+	}
+	.about_img {
+		height: 230px;
+	}
+	.about_heading {
+		width: 220px;
+		left: 50%;
+		top: 180px;
+		padding: 20px 10px 10px 10px;
+	}
+	.about_heading h4 {
+		font-size: 20px;
+	}
+	/* === about ==== */
+	/* === contact === */
+	#contact {
+		padding: 100px 0;
+		text-align: center;
+	}
+	/* === contact === */
+	/* === copyright === */
+	footer {
+		text-align: center !important;
+	}
+	.quick_link_wrapper {
+		padding: 0 !important;
+		justify-content: center !important;
+	}
+	/* === copyright === */
+}
+/* ========================= device (md 768 > 992) ========================= */
+
+/* ========================= device (lg 992 > 1200) ========================= */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* === feature === */
+	.feature_item_wrapper {
+		left: 0;
+		top: -200px;
+	}
+	.feature_item_main {
+		width: 200px;
+		height: 180px;
+	}
+	/* === feature === */
+	/* === portfolio === */
+	.section_heading h2 {
+		font-size: 45px;
+	}
+	.portfolio_item_wrapper {
+		width: 280px;
+		height: 200px;
+		margin: 0 auto;
+	}
+	/* === portfolio === */
+	/* === service === */
+	#service {
+		padding: 50px 0;
+	}
+	.service_item_wrapper {
+		width: 290px;
+		height: 360px;
+		margin: 0 auto;
+	}
+	.service_item_wrapper::before {
+		bottom: 108px;
+		right: -20px;
+	}
+	.service_item_wrapper::after {
+		height: 180px;
+		right: -20px;
+	}
+	/* === service === */
+	/* === about ==== */
+	#about {
+		padding: 50px 0;
+	}
+	#about .about_section_wrapper h2 {
+		margin-bottom: 20px;
+	}
+	.about_item {
+		width: 270px;
+		margin: 0 auto;
+	}
+	.about_img {
+		height: 230px;
+	}
+	.about_heading {
+		width: 220px;
+		left: 50%;
+		top: 180px;
+		padding: 20px 10px 10px 10px;
+	}
+	.about_heading h4 {
+		font-size: 20px;
+	}
+	/* === about ==== */
+}
+/* ========================= device (lg 992 > 1200) ========================= */
+
+/* ========================= device (xl 1200 > 1400) ========================= */
+@media (min-width: 1200px) and (max-width: 1400px) {
+	/* === portfolio === */
+	.portfolio_item_wrapper {
+		width: 340px;
+		height: 240px;
+		margin: 0 auto;
+	}
+	/* === portfolio === */
+	/* === service === */
+	.service_item_wrapper {
+		width: 330px;
+		height: 410px;
+		margin: 0 auto;
+	}
+	.service_item_wrapper::before {
+		bottom: 122px;
+		right: -20px;
+	}
+	.service_item_wrapper::after {
+		height: 180px;
+		right: -20px;
+	}
+	/* === service === */
+}
+/* ========================= device (xl 1200 > 1400) ========================= */
+/* ========================= device (xxl 1400 >>) ========================= */
+@media (min-width: 1400px) {
+}
+/* ========================= device (xxl 1400 >>) ========================= */
+/* ======== responsive css ======== */
+
+/* ===== design by AJOY SAHA ===== */
